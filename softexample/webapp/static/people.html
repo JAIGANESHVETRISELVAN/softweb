@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline;
+            padding: 20px;
+            border: 2px salmon solid;
+            border-radius: 10px;
+            justify-content: center;
+
+           
+        }
+        li:hover{
+            background-color: aqua;
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        .first-div{
+            position:absolute;
+            top: 0;
+            /* bottom: 0; */
+            right: 0;
+            left: 0;
+            border: 10px rgb(20, 166, 224) solid;
+            background-color: yellow;
+        }
+        .navbar{
+            background-color: rgb(41, 173, 36);
+            height: 20%;
+            width: 100%;
+        }
+        ul{
+            margin-top: 40px;
+            margin-bottom: 80px;
+            display: inline-block;
+           text-align: left;
+           
+           
+            
+        }
+        .ja{
+            /* display: flex; */
+            /* justify-items: center; */
+            text-align: center;
+            
+        }
+        
+        .heading{
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+                background-color:blue ;
+        }
+        .content{
+            margin: 10px;
+            padding: 10px;
+            background-color:rgb(246, 246, 248) ;
+        }
+        .content h1{
+            text-align: center;
+        }
+        .content h4{
+            text-align: center;
+        }
+       img{
+            width: 100px;
+            height: 100px;
+        }
+        #people{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-div">
+        <nav class="navbar">
+            <div class="ja">
+
+            
+          <ul style="list-style: none;">
+            <li><a href="softewb.html">HOME</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="people.html">PEOPLE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+    
+        </ul>
+    </div>
+    </nav>
+    <div class="heading">
+        PEOPLE
+    </div>
+    <div class="content" style="border: 5px red solid;">
+        <h1>BOARD MEMBERS</h1>
+        <div id="people">
+        <h4>Chairman</h4>
+        <scan><img src="jai.jpg" alt="chairman"></scan>
+        <scan>JAIGANESH V</scan>
+        <h4>HEAD EXECUTIVES</h4>
+        <scan><img src="rohit.jpeg" alt="cairman"></scan>
+        <scan>ROHIT SHARMA</scan>
+        <scan><img src="KOHLI.jpeg" alt="cairman"></scan>
+        <scan>VIRAT KOHLI</scan>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
